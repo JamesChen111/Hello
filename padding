@@ -1,0 +1,21 @@
+<style type="text/css">
+p {
+  width: 20px;
+  height: 20px;
+  padding:10px;
+  margin: 5px;
+  border: 1px solid red;
+}
+</style>
+<body>
+  <p>
+    This is my life
+  </p>
+</body>
+
+width height所包围的部分是元素；<p></p>之间的内容为元素内容，也就是说内容在width和height所围成的框内。
+背景区有border、padding、width、height所组成。
+
+对元素内容进行字体操作是相对于整个盒子模型来说的。
+
+内边距、边框和外边距默认为0.
